@@ -62,7 +62,7 @@ async function withTmp(name, fn) {
 await withTmp('agents', async () => {
     const agents = await rosie.agents();
     // Matches the supported-agent count pinned by the Rust agent.rs test.
-    assert(agents.length === 73, `expected 73 agent defs, got ${agents.length}`);
+    assert(agents.length === 74, `expected 74 agent defs, got ${agents.length}`);
     const claude = agents.find(a => a.name === 'claude');
     assert(claude !== undefined, 'claude entry missing');
     assert(claude.detected === true, 'claude should be detected');

@@ -100,6 +100,7 @@ pub const AGENT_DEFS: &[AgentDef] = &[
     AgentDef { name: "ona",            display: "Ona",             aliases: &[],   project_path: ".ona/skills",            global_path: ".ona/skills",                   detect_dir: ".ona",                binary: None },
     AgentDef { name: "promptscript",   display: "PromptScript",    aliases: &[],   project_path: ".agents/skills",         global_path: ".agents/skills",                detect_dir: "",                    binary: None },
     AgentDef { name: "qoder-cn",       display: "Qoder CN",        aliases: &[],   project_path: ".qoder/skills",          global_path: ".qoder-cn/skills",              detect_dir: ".qoder-cn",           binary: None },
+    AgentDef { name: "raxol",          display: "Raxol",           aliases: &[],   project_path: ".raxol/skills",          global_path: ".raxol/skills",                 detect_dir: ".raxol",              binary: Some("raxol") },
     AgentDef { name: "reasonix",       display: "Reasonix",        aliases: &[],   project_path: ".reasonix/skills",       global_path: ".reasonix/skills",              detect_dir: ".reasonix",           binary: None },
     AgentDef { name: "terramind",      display: "Terramind",       aliases: &[],   project_path: ".terramind/skills",      global_path: ".terramind/skills",             detect_dir: ".terramind",          binary: None },
     AgentDef { name: "tinycloud",      display: "Tinycloud",       aliases: &[],   project_path: ".tinycloud/skills",      global_path: ".tinycloud/skills",             detect_dir: ".tinycloud",          binary: None },
@@ -206,7 +207,7 @@ mod tests {
 
     #[test]
     fn known_count() {
-        assert_eq!(AGENT_DEFS.len(), 73);
+        assert_eq!(AGENT_DEFS.len(), 74);
     }
 
     #[test]
