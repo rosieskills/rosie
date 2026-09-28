@@ -96,6 +96,7 @@ export const AGENT_DEFS: AgentDef[] = [
   { name: "ona", display: "Ona", aliases: [], projectPath: ".ona/skills", globalPath: ".ona/skills", detectDir: ".ona", binary: null },
   { name: "promptscript", display: "PromptScript", aliases: [], projectPath: ".agents/skills", globalPath: ".agents/skills", detectDir: "", binary: null },
   { name: "qoder-cn", display: "Qoder CN", aliases: [], projectPath: ".qoder/skills", globalPath: ".qoder-cn/skills", detectDir: ".qoder-cn", binary: null },
+  { name: "raxol", display: "Raxol", aliases: [], projectPath: ".raxol/skills", globalPath: ".raxol/skills", detectDir: ".raxol", binary: "raxol" },
   { name: "reasonix", display: "Reasonix", aliases: [], projectPath: ".reasonix/skills", globalPath: ".reasonix/skills", detectDir: ".reasonix", binary: null },
   { name: "terramind", display: "Terramind", aliases: [], projectPath: ".terramind/skills", globalPath: ".terramind/skills", detectDir: ".terramind", binary: null },
   { name: "tinycloud", display: "Tinycloud", aliases: [], projectPath: ".tinycloud/skills", globalPath: ".tinycloud/skills", detectDir: ".tinycloud", binary: null },

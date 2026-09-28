@@ -14,7 +14,7 @@ navOrder: 5
 <section class="supported">
   <p class="lockfile-intro">agents are auto-detected by the presence of their config directory in <code>$HOME</code>. target them explicitly with <code>--agent &lt;name&gt;</code>.</p>
 
-  <h3 class="sub-label">skills · 73 supported</h3>
+  <h3 class="sub-label">skills · 74 supported</h3>
   <ul class="bullet-list">
     <li><span class="bullet">▸</span><strong class="key">adal</strong><span class="val">AdaL · <code>~/.adal/skills/</code></span></li>
     <li><span class="bullet">▸</span><strong class="key">aider</strong><span class="val">AiderDesk · <code>~/.aider-desk/skills/</code></span></li>
@@ -75,6 +75,7 @@ navOrder: 5
     <li><span class="bullet">▸</span><strong class="key">qoder</strong><span class="val">Qoder · <code>~/.qoder/skills/</code></span></li>
     <li><span class="bullet">▸</span><strong class="key">qoder-cn</strong><span class="val">Qoder CN · <code>~/.qoder-cn/skills/</code></span></li>
     <li><span class="bullet">▸</span><strong class="key">qwen-code</strong><span class="val">Qwen Code · <code>~/.qwen/skills/</code></span></li>
+    <li><span class="bullet">▸</span><strong class="key">raxol</strong><span class="val">Raxol · <code>~/.raxol/skills/</code></span></li>
     <li><span class="bullet">▸</span><strong class="key">reasonix</strong><span class="val">Reasonix · <code>~/.reasonix/skills/</code></span></li>
     <li><span class="bullet">▸</span><strong class="key">replit</strong><span class="val">Replit · <code>~/.config/agents/skills/</code></span></li>
     <li><span class="bullet">▸</span><strong class="key">roo</strong><span class="val">Roo · <code>~/.roo/skills/</code></span></li>
